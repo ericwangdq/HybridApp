@@ -1,0 +1,15 @@
+#detail-page .ui-grid-a > .ui-block-a{
+    width: 35%;
+}
+#detail-page .ui-grid-a > .ui-block-b{
+    width: 65%;
+}
+
+#detail-page .ui-grid-a.ui-responsive.full > .ui-block-a,
+#detail-page .ui-grid-a.ui-responsive.full > .ui-block-b{
+    width: 100%;
+}
+
+#main-content {
+    background-color: #f9f9f9;
+}

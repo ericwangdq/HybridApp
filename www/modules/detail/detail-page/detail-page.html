@@ -1,0 +1,104 @@
+<div data-role="header" class="page-header">
+    <a href="javascript:void(0)" data-icon="back" class="back ui-btn-left" data-direction="reverse">返回</a>
+    <h1>详细页</h1>
+    <a href="#settingpanel" data-transition="slide" data-icon="gear" class="options ui-btn-right">设置</a>
+</div>
+
+<div data-role="content" class="generic-wrapper">
+    <div class="scroller">
+
+        <div id="main-content" class="inner-content">
+            <h3>库存信息：</h3>
+            <div class="ui-grid-a">
+                <div class="ui-block-a"><div class="ui-body ui-body-d">订单时间：</div></div>
+                <div class="ui-block-b">
+                    <div class="ui-body ui-body-d">
+                        <input type="date" name="order-date" id="order-date" value="2014-09-25">
+                    </div>
+                </div>
+            </div>
+            <div class="ui-grid-a">
+                <div class="ui-block-a"><div class="ui-body ui-body-d">订单号：</div></div>
+                <div class="ui-block-b"><div class="ui-body ui-body-d">O12345689</div></div>
+            </div>
+            <div class="ui-grid-a">
+                <div class="ui-block-a"><div class="ui-body ui-body-d">存货名称：</div></div>
+                <div class="ui-block-b"><div class="ui-body ui-body-d">上海百事201302七喜202 330</div></div>
+            </div>
+            <div class="ui-grid-a">
+                <div class="ui-block-a"><div class="ui-body ui-body-d">仓库地址：</div></div>
+                <div class="ui-block-b"><div class="ui-body ui-body-d">上海市宝山区月罗路1888号</div></div>
+            </div>
+            <div class="ui-grid-a">
+                <div class="ui-block-a"><div class="ui-body ui-body-d">联系人：</div></div>
+                <div class="ui-block-b"><div class="ui-body ui-body-d">代仲宇</div></div>
+            </div>
+            <div class="ui-grid-a">
+                <div class="ui-block-a"><div class="ui-body ui-body-d">联系电话：</div></div>
+                <div class="ui-block-b">
+                    <div class="ui-body ui-body-d">
+                        <input type="tel" name="tel" id="tel" value="13999999999">
+                    </div>
+                </div>
+            </div>
+            <div class="ui-grid-a ui-responsive full">
+                <div class="ui-block-a"><div class="ui-body ui-body-d">预计出库时间：</div></div>
+                <div class="ui-block-b">
+                    <div class="ui-body ui-body-d">
+                        <!--<input type="text" class="date-input-css" name="plan-date" id="plan-date" value="2014-09-29">-->
+                        <!--<input type="text" class="date-input" data-inline="false" data-role="date" name="plan-date" id="plan-date" value="2014-09-29">-->
+                        <input type="text" class="date-input-inline" data-inline="true" data-role="date" name="plan-date" id="plan-date" value="2014-09-29">
+                    </div>
+                </div>
+            </div>
+            <div class="ui-grid-a ui-responsive full">
+                <div class="ui-block-a"><div class="ui-body ui-body-d">结存数量：</div></div>
+                <div class="ui-block-b"><div class="ui-body ui-body-d">
+                    <input type="range" name="slider-fill" id="slider-fill-year" value="6885" min="0" max="10000" step="500" data-highlight="true"></div>
+                </div>
+            </div>
+            <div class="ui-grid-a">
+                <div class="ui-block-a"><div class="ui-body ui-body-d">库存预警：</div></div>
+                <div class="ui-block-b"><div class="ui-body ui-body-d">
+                    <select name="slider-flip-m" id="slider-flip-m" data-role="slider">
+                        <option value="off">否</option>
+                        <option value="on" selected="">是</option>
+                    </select></div>
+                </div>
+            </div>
+
+            <p>导航：</p>
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#page/home">首页</a></li>
+                <li><a href="#page/listing">列表页</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="canvas-content">
+
+    </div>
+</div>
+
+<div class="page-footer" data-role="footer">
+    <div class="toolbar"></div>
+    <a href="javascript:void(0)" data-icon="edit" class="tag ui-btn-left ">画图</a>
+    <div class="palette-case">
+        <!--<div class="palette-box">-->
+            <!--<div class="palette white"></div>-->
+        <!--</div>-->
+        <div class="palette-box">
+            <div class="palette red"></div>
+        </div>
+        <div class="palette-box">
+            <div class="palette blue"></div>
+        </div>
+        <div class="palette-box">
+            <div class="palette green"></div>
+        </div>
+        <!--<div class="palette-box">-->
+            <!--<div class="palette black"></div>-->
+        <!--</div>-->
+        <div style="clear:both"></div>
+    </div>
+    <a href="javascript:void(0)" data-icon="mail" class="save ui-btn-right">保存</a>
+</div>

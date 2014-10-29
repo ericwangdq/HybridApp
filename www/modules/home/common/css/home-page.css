@@ -1,0 +1,6 @@
+#home-page .ui-grid-a > .ui-block-a{
+    width: 35%;
+}
+#home-page .ui-grid-a > .ui-block-b{
+    width: 65%;
+}

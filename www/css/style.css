@@ -1,0 +1,298 @@
+h1, .h1{
+    font-size: 1.285em;
+    font-weight: bold;
+}
+h2, .h2{
+    font-size: 1.142em;
+    font-weight: bold;
+}
+h3, .h3, h4, .h4, h4, .h4, h5, .h5{
+    font-size: 1em;
+    font-weight: bold;
+}
+.ui-btn {
+    font-size: 1em;
+}
+.ui-page .ui-header .ui-title,
+.ui-page .ui-footer .ui-title
+{
+    font-size: 1.142em;
+    letter-spacing: 3px;
+}
+
+.ui-page .page-header {
+    width: 100%;
+    height: 58px;
+    z-index: 2;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.page-header .ui-title {
+    padding: 17px 0 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.page-header .ui-btn-left,
+.page-header .ui-btn-right{
+    margin-top: 6px;
+}
+
+.page-header .ui-btn
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ui-page .ui-content {
+    padding: 0;
+}
+
+.ui-page .ui-content.no-footer {
+    bottom: 0px;
+}
+
+.generic-wrapper {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 58px;
+    bottom: 48px;
+    left: 0;
+    overflow: hidden;
+}
+
+.scroller {
+    position: absolute;
+    z-index: 1;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    width: 100%;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+.ui-page .page-footer {
+    border: 0;
+    padding: 0;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 48px;
+    opacity: 0.9;
+}
+
+.inner-content{
+    padding: .5em;
+}
+
+#settingpanel {
+    background-color: #848484;
+    opacity: 0.9;
+}
+
+.ui-mobile-viewport .ui-datepicker td span,
+.ui-mobile-viewport .ui-datepicker a{
+    font-size: 14px;
+}
+
+.top-panel{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 52px;
+    background: #fff;
+}
+
+.top-panel .ui-grid-a
+{
+    width: 80%;
+    margin-left: 10%;
+}
+.top-panel .ui-block-a span{
+    display: block;
+    margin-left:10px ;
+    margin-top: 18px;
+}
+
+div.map-area {
+    height: 180px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 52px;
+}
+div.map-area.full {
+    height: 100%;
+}
+
+#canvas{
+    cursor:crosshair ;
+    background-color:#fff;
+}
+.palette-case {
+    text-align:center;
+    width: 138px;
+    margin: 0 auto;
+}
+.palette-box {
+    float:left;
+    padding:8px 6px 5px 6px;
+}
+.palette {
+    border:2px solid #777;
+    height:30px;
+    width:30px;
+}
+.red{
+    background-color:#c22;
+}
+.blue{
+    background-color:#22c;
+}
+.green{
+    background-color:#2c2;
+}
+.white{
+    background-color:#fff;
+}
+.black{
+    background-color:#000;
+    border:2px dashed #fff;
+}
+.draw{
+    z-index: 3;
+}
+.page-footer a.tag,
+.page-footer a.save{
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+#canvas-content{
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow:hidden;
+    background-color: transparent;
+}
+#canvas{
+    background-color: transparent;
+}
+body{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    /* prevent text selection on ui */
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    /* prevent scrolling in windows phone */
+    -ms-touch-action: none;
+}
+/*iPhone 4+ Portrait or Landscape*/
+@media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    /* some CSS here */
+    .page-header .ui-title {
+        padding-top: 24px;
+    }
+
+    .page-header .ui-btn-left,
+    .page-header .ui-btn-right{
+        margin-top: 13px;
+    }
+}
+
+/*iPhone 5 Only*/
+@media only screen
+and (min-device-width: 640px)
+and (max-device-width: 1136px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    /* styles here */
+
+}
+
+/*iPad in portrait & landscape*/
+@media only screen
+and (min-device-width : 768px){
+
+}
+
+@media all and (max-width:19.6875em )
+and (max-device-width : 1024px) {
+    /* STYLES GO HERE */
+
+
+}
+
+/*iPad in landscape*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+    /* STYLES GO HERE */
+
+}
+
+/*iPad in portrait*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+    /* STYLES GO HERE */
+    /*body {
+        font-size: 18px;
+    }*/
+}
+
+
+/*Photo gallery page*/
+div.gallery-row {
+    margin-right: 5px
+}
+div.gallery-row:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+div.gallery-item {
+    float: left;
+    width: 25%;
+}
+div.gallery-item a {
+    display: block;
+    margin: 5px 0 0 5px;
+    border: 0;
+}
+
+div.gallery-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#view-attachment .ui-content {
+    overflow: hidden;
+}
+.ui-collapsible-themed-content .ui-collapsible-content {
+    border-top-width: 1px;
+}

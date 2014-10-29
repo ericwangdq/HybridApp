@@ -1,0 +1,14 @@
+#user-page .ui-grid-a > .ui-block-a{
+    width: 35%;
+}
+#user-page .ui-grid-a > .ui-block-b{
+    width: 65%;
+}
+
+#login-cont .ui-input-text{
+    width: 90%;
+}
+
+#login-cont .ui-input-btn {
+    width: 90%;
+}
